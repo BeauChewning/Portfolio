@@ -11,6 +11,19 @@
     --big-w-1: 1228px;
     --big-h-1: 300px;
 }
+.pics{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+   
+    z-index: 1;
+
+}
+a hover{
+    cursor: pointer;
+}
 
 body {
     margin:0;
@@ -212,6 +225,7 @@ a:hover:before {
 
 .flexbox-image {
     margin: 10px;
+    position: relative;
     
 }
 .big-image-text {
